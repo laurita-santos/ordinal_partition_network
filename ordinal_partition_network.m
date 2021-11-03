@@ -5,6 +5,9 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % based on: phylosophical transactions A 375 2017: Multiscale ordinal network
 % analysis of human cardiac dynamics
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% this code is part of paper intituled "Characterisation of neonatal cardiac dynamics using ordinal partition network"
+% submitted for Medical & Biological Engineering & Computing - Springer
 
 
 function [permutation_entropy, CP_entropy, gn_entropy] = ordinal_partition_network(file,m,tau)
